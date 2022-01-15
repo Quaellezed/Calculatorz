@@ -1,4 +1,4 @@
-# title(){return this.options.title||this.options.name}
+# Calculatorz
 
 Just my first app learning HTML, CSS and javascript.
 It is a basic calculator, just click figures then operator and validate with equals.
