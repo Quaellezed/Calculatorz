@@ -1,25 +1,15 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="body {.css">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
     </head>
-    <body>
-        <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <button id="el-zero" onclick="pad()">0</button>
-        <button id="el-uno" onclick="">1</button>
-        <button id="el-duo" onclick="">2</button>
-        <button id="el-trio" onclick="">3</button>
-        <button id="el-quattro" onclick="">4</button>
-        <button id="el-cinqo" onclick="">5</button>
-        <button id="el-sixo" onclick="">6</button>
-        <button id="el-septo" onclick="">7</button>
-        <button id="el-octo" onclick="">8</button>
-        <button id="el-neuvo" onclick="">9</button>
-        <button id="el-dixio" onclick="">10</button>
-        <button id="el-point" onclick="">.</button>
-        <p id="save-el">Previous entries: </p>
-        <script src="Untitled-1.js"></script>
+    <body onload="createButton(), createBtnOp()">
+        <h1>Calculatorz</h1>
+        <h2 id="count-el" >&nbsp</h2>
+        <button id="clear-el" onclick="makeClear()">Clear</button>
+        <!---<button id="el-plus" onclick="plus()">+</button>
+        <button id="el-minus" onclick="minus()">-</button>-->
+        <button id="el-equal" onclick="equals()">=</button>
+        <p id="save-el"> </p>
+        <script src="index.js"></script>
     </body>
 </html>
